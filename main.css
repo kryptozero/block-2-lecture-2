@@ -1,0 +1,20 @@
+table.one{
+    width: 20em;
+    text-transform: capitalize;
+    border-spacing: 0em;
+    border-collapse: collapse;
+}
+table.one th{
+    color: red;
+}
+table.one th,td{
+    padding: 0.7em;
+    border: darkblue solid 2px;
+}
+table.one. td{
+    text-align: center;
+}
+table.one tr:nth-child(even){
+    /* background-color: cadetblue; */
+    background-color: rgba(95,158,160,0.5);
+}
